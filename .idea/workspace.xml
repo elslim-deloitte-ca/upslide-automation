@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5aa6d279-08c6-4e09-b8e1-e04e48d03c2f" name="Changes" comment="Created project repository and added a web scraper to download license data from the Upslide Portal">
-      <change afterPath="$PROJECT_DIR$/scripts/master-migration.py" afterDir="false" />
+    <list default="true" id="5aa6d279-08c6-4e09-b8e1-e04e48d03c2f" name="Changes" comment="Converted xlsx -&gt; pandas -&gt; polars">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/master-migration.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/master-migration.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652817332588</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Converted xlsx -&gt; pandas -&gt; polars">
+      <created>1652823832028</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652823832028</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +122,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created project repository and added a web scraper to download license data from the Upslide Portal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created project repository and added a web scraper to download license data from the Upslide Portal" />
+    <MESSAGE value="Converted xlsx -&gt; pandas -&gt; polars" />
+    <option name="LAST_COMMIT_MESSAGE" value="Converted xlsx -&gt; pandas -&gt; polars" />
   </component>
 </project>
