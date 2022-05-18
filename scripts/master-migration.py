@@ -18,4 +18,10 @@ renamedDF = pandasDF.rename(columns={
     'City': 'city'
 })
 
-renamedDF.to_csv('data/processed/usage.csv', index=False)
+practitionerDF = renamedDF[['email', 'name', 'team', 'title', 'region', 'city']].drop_duplicates()
+
+# print(renamedDF.shape)
+# print(practitionerDF.shape)
+
+# renamedDF.to_csv('data/processed/usage.csv', index=False)
+# practitionerDF.to_csv('data/processed/practitioners.csv', index=False)
