@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5aa6d279-08c6-4e09-b8e1-e04e48d03c2f" name="Changes" comment="Extracted practitioner data">
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/LicenseScraper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/Migration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/UpdateUsage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/license-scraper.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/master-migration.py" beforeDir="false" />
-    </list>
+    <list default="true" id="5aa6d279-08c6-4e09-b8e1-e04e48d03c2f" name="Changes" comment="Created project repository and added a web scraper to download license data from the Upslide Portal" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +15,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature_usage_etl" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
