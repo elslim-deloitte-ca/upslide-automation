@@ -1,4 +1,4 @@
-# upslide-automation
+# UpSlide Automation
 
 ## How to run
 1. Move the monthly usage Excel file into data/raw/usage
@@ -8,6 +8,7 @@
 5. Change REPORTING_DATE to the last day of the previous month. E.g. if today is 2022 June 16, set REPORTING_DATE to 2022-05-31
 6. Right click main.py and click "Run 'main'"
 7. Wait until you see "Process finished" in the terminal output
+
 
 
 ## How to perform the first time setup
