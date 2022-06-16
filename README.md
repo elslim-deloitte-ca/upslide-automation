@@ -45,11 +45,9 @@
 **Check .gitignore**
 1. Open the .gitignore file located in the main project folder
 2. Ensure the following lines are included at the top of the file:
-    config/\*
-  
-    config/\*\*/\*
-  
-    data/\*
-  
-    data/\*\*/\*
-  
+```
+  config/*
+  config/**/*
+  data/*
+  data/**/*
+```
