@@ -61,5 +61,5 @@ def update_report_csv(usageFileName, talentFileName, currentReportName, reportin
     lastReportDF.to_csv(f"data/archive/upslide-report-{reportingDate}.csv", index=False)
 
     # Union latest data (for practitioners not in latest data, leave past data untouched)
-    updatedReportDF = pd.concat([lastReportDF, loadDF]).reset_index(drop=True)
+    updatedReportDF = pd.concat([lastReportDF, loadDF]).drop_duplicates().reset_index(drop=True)
     updatedReportDF.to_csv("data/report/upslide-report.csv", index=False)
