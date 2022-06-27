@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5aa6d279-08c6-4e09-b8e1-e04e48d03c2f" name="Changes" comment="Created project repository and added a web scraper to download license data from the Upslide Portal" />
+    <list default="true" id="5aa6d279-08c6-4e09-b8e1-e04e48d03c2f" name="Changes" comment="Deleted unused files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,9 +126,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.LicenseScraper" />
         <item itemvalue="Python.UpdateUsage" />
         <item itemvalue="Python.Migration" />
-        <item itemvalue="Python.LicenseScraper" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652910768247</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Deleted unused files">
+      <created>1655396434905</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655396434905</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +187,7 @@
     <MESSAGE value="Created project repository and added a web scraper to download license data from the Upslide Portal" />
     <MESSAGE value="Converted xlsx -&gt; pandas -&gt; polars" />
     <MESSAGE value="Extracted practitioner data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Extracted practitioner data" />
+    <MESSAGE value="Deleted unused files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted unused files" />
   </component>
 </project>

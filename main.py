@@ -1,7 +1,7 @@
 # UPDATE THESE VARIABLES #
 
-USAGE_FILE_NAME = "Deloitte Canada FA UpSlide User Data April 2022.xlsx"
-TALENT_FILE_NAME = "FA Headcount report_RITM2154626.xlsx"
+USAGE_FILE_NAME = "Deloitte Canada FA UpSlide User Data May 2022.xlsx"
+TALENT_FILE_NAME = "FA Headcount Report_RITM2192044.xlsx"
 CURRENT_REPORT_NAME = "upslide-report.csv"
 REPORTING_DATE = "2022-05-31"  # YYYY-MM-DD format
 
