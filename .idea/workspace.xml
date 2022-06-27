@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5aa6d279-08c6-4e09-b8e1-e04e48d03c2f" name="Changes" comment="Updated chromedriver to support version 103">
+    <list default="true" id="5aa6d279-08c6-4e09-b8e1-e04e48d03c2f" name="Changes" comment="Drop duplicates after insert">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/UpdateUsage.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/UpdateUsage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
