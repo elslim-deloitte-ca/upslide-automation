@@ -52,3 +52,17 @@
   data/*
   data/**/*
 ```
+
+## Maintenance
+### Talent report requests
+
+### UpSlide report requests
+
+### Chrome and Chromedriver Updates
+
+
+
+
+
+
+
