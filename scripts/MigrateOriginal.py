@@ -27,8 +27,6 @@ processedTalentDF = processedTalentDF[['email', 'name', 'employeeStatus',
                                        'businessLine', 'subBusinessLine', 'title',
                                        'region', 'city']]
 
-## Write dataframe to processed folder
-# processedTalentDF.to_csv('data/processed/talent.csv', index=False)
 
 # Usage (Master is taken from the Jan - April extract)
 rawUsageDF = pd.read_excel('data/raw/master.xlsx', sheet_name='User Data')
