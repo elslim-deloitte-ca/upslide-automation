@@ -31,13 +31,13 @@ originalDF = originalDF[['email', 'name', 'businessLine', 'title', 'region', 'ci
 
 ## Clean original excel values
 originalDF = originalDF[originalDF["name"].apply(lambda s: "left firm" not in s.lower())] # Remove rows where employee details are "Left Firm"
-originalDF["title"] = originalDF["title"] + " [[LEFT FIRM]]"
-originalDF["businessLine"] = originalDF["businessLine"] + " [LEFT FIRM]"
+originalDF["title"] = originalDF["title"]
+originalDF["businessLine"] = originalDF["businessLine"]
 originalDF["subBusinessLine"] = originalDF["businessLine"]
 originalDF["region"] = originalDF["region"].apply(lambda row: "Ontario" if row == "Toronto" else row) + " [LEFT FIRM]" # Replace Toronto with Ontario in Region column
-originalDF["city"] = originalDF["city"].apply(lambda row: "Toronto - Bay Adelaide East" if row == "Toronto" else row) + " [LEFT FIRM]" # Replace Toronto with Ontario in Region column
+originalDF["city"] = originalDF["city"].apply(lambda row: "Toronto - Bay Adelaide East" if row == "Toronto" else row)  # Replace Toronto with Ontario in Region column
 originalDF["email"] = originalDF["email"].str.lower()
-originalDF["name"] = originalDF["name"].str.title() + " [LEFT FIRM]"
+originalDF["name"] = originalDF["name"].str.title()
 originalDF = dropDuplicatesAndSortDataFrame(originalDF)
 
 # Latest

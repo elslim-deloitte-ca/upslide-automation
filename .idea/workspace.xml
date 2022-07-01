@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5aa6d279-08c6-4e09-b8e1-e04e48d03c2f" name="Changes" comment="Added create customer table.py (example test)">
-      <change afterPath="$PROJECT_DIR$/scripts/MigrateEmployeeDimension.py" afterDir="false" />
+    <list default="true" id="5aa6d279-08c6-4e09-b8e1-e04e48d03c2f" name="Changes" comment="Created employee dimension table">
+      <change afterPath="$PROJECT_DIR$/scripts/UpdateEmployees.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/Migration.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/MigrateOriginal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/LicenseScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/UpdateLicenses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/MigrateEmployeeDimension.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/MigrateEmployeeDimension.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,28 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.MigrateEmployeeDimension">
-    <configuration name="LicenseScraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="upslide-automation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\elslim\OneDrive - Deloitte (O365D)\Documents\Initiatives\upslide-automation\scripts\LicenseScraper.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.main">
     <configuration name="MigrateEmployeeDimension" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="upslide-automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,7 +84,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="UpdateUsage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="UpdateEmployees" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="upslide-automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,7 +96,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\elslim\OneDrive - Deloitte (O365D)\Documents\Initiatives\upslide-automation\scripts\UpdateUsage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/UpdateEmployees.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UpdateLicenses" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="upslide-automation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\elslim\OneDrive - Deloitte (O365D)\Documents\Initiatives\upslide-automation\scripts\UpdateLicenses.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.UpdateEmployees" />
         <item itemvalue="Python.MigrateEmployeeDimension" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.MigrateOriginal" />
-        <item itemvalue="Python.LicenseScraper" />
-        <item itemvalue="Python.UpdateUsage" />
+        <item itemvalue="Python.UpdateLicenses" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656345005460</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Created employee dimension table">
+      <created>1656647199409</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656647199409</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,7 +236,8 @@
     <MESSAGE value="Deleted unused files" />
     <MESSAGE value="Updated chromedriver to support version 103" />
     <MESSAGE value="Added create customer table.py (example test)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added create customer table.py (example test)" />
+    <MESSAGE value="Created employee dimension table" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created employee dimension table" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
