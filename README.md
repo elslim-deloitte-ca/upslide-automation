@@ -55,10 +55,38 @@
 
 ## Maintenance
 ### Talent report requests
+1. Create ServiceNow ticket for a Talent Data Report
+2. In Report Type, select *Other Report*
+3. Enter the following into the description field
+```
+Please provide details
+Combined headcount and change report to understand details of current employees. Employees who left the firm should not be included in this report Refer to RITM2154626 for past request
+```
+4. In the field asking for additional information, add
+```
+Please indicate if any additional information is required. Please be as specific as possible.
+Fields requested: * Employee email * Employee name * Employee title (e.g. Senior Associate, Quick Start Analyst, Manager) * Employee team (e.g. M&VA - Value Advisory, FOR - Disputes & Litigation) * Region (e.g. Atlantic, Ontario, etc.) * City (e.g. Toronto, Montreal) * Employment status (e.g. Active, Left the Firm) Refer to RITM2154626 for past request
+```
+5. In the field asking for dates used, enter
+```
+Fields should contain most recent title/team (e.g. an analyst from Vancouver promoted to senior in Toronto in the last 12 months should show as a senior from Toronto).
+```
+6. When asked if data will be shared external to Talent, select yes and state:
+```
+Intended audience and distribution: Internal Deloitte practitioners only. For technology license management purposes.
+```
+7. In additional comments, add:
+```
+Previously reviewed and approved by Yonette Creavalle - RITM 2098403 Previously delivered as per RITM2154626
+```
+
 
 ### UpSlide report requests
+Email sent to Anastasiya and Reed from the UpSlide team. Excel sheet attached to response
 
-### Chrome and Chromedriver Updates
+
+### Chrome and Chromedriver Updates 
+When Google Chrome on the Deloitte laptop updates, there may be a need to update chromedriver.exe. In this case, navigate to https://chromedriver.chromium.org/downloads and replace the .exe file with the one matching the requested version
 
 
 
